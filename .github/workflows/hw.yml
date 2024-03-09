@@ -1,0 +1,8 @@
+name: homework
+on: workflow_dispatch
+jobs:
+  test_py:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prin v consol
+        run: echo privet gilab
